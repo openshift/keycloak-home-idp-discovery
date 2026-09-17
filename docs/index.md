@@ -9,7 +9,7 @@ nav_order: 1
 This is a simple Keycloak authenticator to redirect users to their home identity provider during login.
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sventorben/keycloak-home-idp-discovery?sort=semver)
-![Keycloak Dependency Version](https://img.shields.io/badge/Keycloak-26.0.0-blue)
+![Keycloak Dependency Version](https://img.shields.io/badge/Keycloak-26.7.2-blue)
 ![GitHub Release Date](https://img.shields.io/github/release-date-pre/sventorben/keycloak-home-idp-discovery)
 ![Github Last Commit](https://img.shields.io/github/last-commit/sventorben/keycloak-home-idp-discovery)
 
@@ -32,7 +32,7 @@ The identity provider will be chosen by the following preference:
     1. Use the first linked identity provider with matching domain
     2. Use the first linked identity provider
     3. Use non-linked identity provider with matching domain
-2. If the `forwadToLinkedIdp` config option is disabled
+2. If the `forwardToLinkedIdp` config option is disabled
     1. Use the first identity provider with matching domain
 
 Only enabled and not link-only identity providers will be considered.
